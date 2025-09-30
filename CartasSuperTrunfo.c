@@ -25,10 +25,10 @@ int main() {
 
     // Entrada de dados para a primeira cidade
     printf("--- Cidade 1 ---\n");
-    printf("Digite a letra do Estado: ");
+    printf("Digite a letra do Estado (De A até H): ");
     scanf(" %c", &letra_1);
 
-    printf("Digite o código da cidade(Letra+Número ex: A01): ");
+    printf("Digite o código da cidade(Letra + Número ex: A01): ");
     scanf("%s", codigo_1);
 
     printf("Digite o nome da cidade: ");
@@ -50,7 +50,7 @@ int main() {
 
     // Entrada de dados para a segunda cidade
     printf("--- Cidade 2 ---\n");
-    printf("Digite a letra do Estado: ");
+    printf("Digite a letra do Estado (De A até H): ");
     scanf(" %c", &letra_2);
 
     printf("Digite o código da cidade(Letra+Número ex: A01): ");
