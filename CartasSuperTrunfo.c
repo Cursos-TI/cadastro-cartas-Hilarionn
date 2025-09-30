@@ -74,10 +74,31 @@ printf("Digite agora, o número de pontos turísticos: \n");
 scanf(" %d", &Numero_de_pontos_turisticos_2);
 
 
-
+printf("Excelente! Vamos verificar!\n");
+printf("Primeiro cartão:\n");
 
 
   // Área para exibição dos dados da cidade
+
+printf("Estado: %c\n", Letra_1);
+printf("Código: %s\n" Codigo_1);
+printf("Nome da cidade: %[^\n]s", Nome_da_cidade_1);
+printf("Número de Habitantes: %d", populacao_1);
+printf("Área em KM²: %f", Area_em_km2_1);
+printf("PIB: %f", PIB_1);
+printf("Pontos turísticos encontrados: %d", Numero_de_pontos_turisticos_1);
+
+printf("Excelente! Agora, o segundo cartão:\n");
+
+
+printf("Estado: %c\n", Letra_2);
+printf("Código: %s\n" Codigo_2);
+printf("Nome da cidade: %[^\n]s", Nome_da_cidade_2);
+printf("Número de Habitantes: %d", populacao_2);
+printf("Área em KM²: %f", Area_em_km2_2 KM²);
+printf("PIB: %f", PIB_2);
+printf("Pontos turísticos encontrados: %d", Numero_de_pontos_turisticos_2);
+
 
 return 0;
 } 
