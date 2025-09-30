@@ -1,104 +1,94 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das cartas
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
-
 int main() {
-  // Área para definição das variáveis para armazenar as propriedades das cidades
+    // Variáveis para a primeira cidade
+    char letra_1;
+    char codigo_1[20];
+    char nome_cidade_1[50];
+    int populacao_1;
+    float area_km2_1;
+    float pib_1;
+    int pontos_turisticos_1;
 
-  // Primeira Carta
-  char Letra_1 = 'A';
-  char Codigo_1 [20] =  "A01";
-  char Nome_da_cidade_1 [20] = "Fortaleza";
-  int populacao_1 = 500000;
-  float Area_em_km2_1 = 318.8;
-  float PIB_1 = 300000;
-  int Numero_de_pontos_turisticos_1 = 50;
+    // Variáveis para a segunda cidade
+    char letra_2;
+    char codigo_2[20];
+    char nome_cidade_2[50];
+    int populacao_2;
+    float area_km2_2;
+    float pib_2;
+    int pontos_turisticos_2;
 
-  //Segunda Carta
+    // Introdução
+    printf("=== Bem-vindo ao jogo Super Trunfo ===\n");
+    printf("Aqui você vai definir as estatísticas de duas cidades de sua escolha!\n\n");
 
-  char Letra_2 = 'A';
-  char Codigo_2 [20] =  "A01";
-  char Nome_da_cidade_2 [20] = "Fortaleza";
-  int populacao_2 = 500000;
-  float Area_em_km2_2 = 318.8;
-  float PIB_2 = 300000;
-  int Numero_de_pontos_turisticos_2 = 50;
+    // Entrada de dados para a primeira cidade
+    printf("--- Cidade 1 ---\n");
+    printf("Digite a letra da cidade: ");
+    scanf(" %c", &letra_1);
 
-printf("Seja Bem Vindo ao jogo Super Trunfo! \n" "Aqui você vai definir as estatísticas de duas cidades de sua escolha! \n" "Boa sorte!\n");
-  // Área para entrada de dados
-printf("Digite a letra: \n");
-scanf(" %c", &Letra_1);
+    printf("Digite o código da cidade: ");
+    scanf("%s", codigo_1);
 
-printf("Digite o Código: \n");
-scanf(" %s",Codigo_1);
+    printf("Digite o nome da cidade: ");
+    scanf(" %[^\n]s", nome_cidade_1);
 
-printf("Digite o nome da cidade: \n");
-scanf(" %[^\n]s", Nome_da_cidade_1);
+    printf("Digite a população: ");
+    scanf("%d", &populacao_1);
 
-printf("Digite o número da população: \n");
-scanf(" %d",&populacao_1);
+    printf("Digite a área em km²: ");
+    scanf("%f", &area_km2_1);
 
-printf("Digite a Área em KM²: \n");
-scanf(" %f",&Area_em_km2_1);
+    printf("Digite o PIB: ");
+    scanf("%f", &pib_1);
 
-printf("Digite o PIB: \n");
-scanf(" %f",&PIB_1);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos_1);
 
-printf("Digite agora, o número de pontos turísticos: \n");
-scanf(" %d", &Numero_de_pontos_turisticos_1);
+    printf("\n");
 
+    // Entrada de dados para a segunda cidade
+    printf("--- Cidade 2 ---\n");
+    printf("Digite a letra da cidade: ");
+    scanf(" %c", &letra_2);
 
-printf("Ótimo! Agora, vamos para o segundo cartão! \n");
+    printf("Digite o código da cidade: ");
+    scanf("%s", codigo_2);
 
-printf("Digite a letra: \n");
-scanf(" %c", &Letra_2);
+    printf("Digite o nome da cidade: ");
+    scanf(" %[^\n]s", nome_cidade_2);
 
-printf("Digite o Código: \n");
-scanf(" %s",Codigo_2);
+    printf("Digite a população: ");
+    scanf("%d", &populacao_2);
 
-printf("Digite o nome da cidade: \n");
-scanf(" %[^\n]s", Nome_da_cidade_2);
+    printf("Digite a área em km²: ");
+    scanf("%f", &area_km2_2);
 
-printf("Digite o número da população: \n");
-scanf(" %d",&populacao_2);
+    printf("Digite o PIB: ");
+    scanf("%f", &pib_2);
 
-printf("Digite a Área em KM²: \n");
-scanf(" %f",&Area_em_km2_2);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos_2);
 
-printf("Digite o PIB: \n");
-scanf(" %f",&PIB_2);
+    // Exibir os dados
+    printf("\n=== Dados das Cidades ===\n");
 
-printf("Digite agora, o número de pontos turísticos: \n");
-scanf(" %d", &Numero_de_pontos_turisticos_2);
+    printf("\nCidade 1: %s\n", nome_cidade_1);
+    printf("Letra: %c\n", letra_1);
+    printf("Código: %s\n", codigo_1);
+    printf("População: %d\n", populacao_1);
+    printf("Área: %.2f km²\n", area_km2_1);
+    printf("PIB: %.2f\n", pib_1);
+    printf("Pontos Turísticos: %d\n", pontos_turisticos_1);
 
+    printf("\nCidade 2: %s\n", nome_cidade_2);
+    printf("Letra: %c\n", letra_2);
+    printf("Código: %s\n", codigo_2);
+    printf("População: %d\n", populacao_2);
+    printf("Área: %.2f km²\n", area_km2_2);
+    printf("PIB: %.2f\n", pib_2);
+    printf("Pontos Turísticos: %d\n", pontos_turisticos_2);
 
-printf("Excelente! Vamos verificar!\n");
-printf("Primeiro cartão:\n");
-
-
-  // Área para exibição dos dados da cidade
-
-printf("Estado: %c\n", Letra_1);
-printf("Código: %s\n" Codigo_1);
-printf("Nome da cidade: %[^\n]s", Nome_da_cidade_1);
-printf("Número de Habitantes: %d", populacao_1);
-printf("Área em KM²: %f", Area_em_km2_1);
-printf("PIB: %f", PIB_1);
-printf("Pontos turísticos encontrados: %d", Numero_de_pontos_turisticos_1);
-
-printf("Excelente! Agora, o segundo cartão:\n");
-
-
-printf("Estado: %c\n", Letra_2);
-printf("Código: %s\n" Codigo_2);
-printf("Nome da cidade: %[^\n]s", Nome_da_cidade_2);
-printf("Número de Habitantes: %d", populacao_2);
-printf("Área em KM²: %f", Area_em_km2_2 KM²);
-printf("PIB: %f", PIB_2);
-printf("Pontos turísticos encontrados: %d", Numero_de_pontos_turisticos_2);
-
-
-return 0;
-} 
+    return 0;
+}
