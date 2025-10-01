@@ -72,6 +72,7 @@ int main() {
     scanf("%d", &pontos_turisticos_2);
 
     // Exibir os dados
+    // Exibir dados
     printf("\n=== Dados das Cidades ===\n");
 
     printf("\nCidade 1: %s\n", nome_cidade_1);
