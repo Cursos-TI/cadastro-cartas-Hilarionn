@@ -87,24 +87,24 @@ scanf("%f", &Area_em_km2_2);
     printf("O Estado é: %c\n", Estado); 
     printf("O Código é: %s\n", Codigo); 
     printf("O Nome da cidade é: %s\n", Nome_cidade);
-    printf("O PIB é: %f\n", PIB);
+    printf("O PIB é: R$%.2f\n", PIB);
     printf("A população é: %lu\n", Populacao); 
-    printf("A Área em KM² é: %f\n", Area_em_km2);
+    printf("A Área em KM² é: %.2f\n", Area_em_km2);
     printf("O número de pontos turísticos é: %d\n", Pontos_turisticos);
-    printf(" O PIB Per Capita de %s é: %f\n", Nome_cidade, PIB_per_capita);
-    printf(" A densidade populacional de %s é: %f\n", Nome_cidade, Densidade_populacional);
-    printf(" O super poder é de: %f\n", Super_poder); 
+    printf(" O PIB Per Capita de %s é: R$%.2f\n", Nome_cidade, PIB_per_capita);
+    printf(" A densidade populacional de %.2s é: %f\n", Nome_cidade, Densidade_populacional);
+    printf(" O super poder é de: %.2f\n", Super_poder); 
 
     printf("O Estado é: %c\n", Estado_2);
     printf("O Código é: %s\n", Codigo_2); 
     printf("O Nome da cidade é: %s\n", Nome_cidade_2);
-    printf("O PIB é: %f\n", PIB_2); 
+    printf("O PIB é: R$%.2f\n", PIB_2); 
     printf("A população é: %lu\n", Populacao_2); 
-    printf("A Área em KM² é: %f\n", Area_em_km2_2);
+    printf("A Área em KM² é: %.2f\n", Area_em_km2_2);
     printf("O número de pontos turísticos é: %d\n", Pontos_turisticos_2);
-    printf(" O PIB Per Capita de %s é: %f\n", Nome_cidade_2, PIB_per_capita_2);
-    printf(" A densidade populacional de %s é: %f\n", Nome_cidade_2, Densidade_populacional_2);
-    printf(" O super poder é de: %f\n", Super_poder_2);
+    printf(" O PIB Per Capita de R$%.2s é: %.2f\n", Nome_cidade_2, PIB_per_capita_2);
+    printf(" A densidade populacional de %s é: %.2f\n", Nome_cidade_2, Densidade_populacional_2);
+    printf(" O super poder é de: %.2f\n", Super_poder_2);
 
     //Comparar os dados
     int vitoria_pop = Populacao > Populacao_2;
