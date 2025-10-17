@@ -36,10 +36,10 @@ int main () {
         scanf(" %c", &Estado);
 
     printf("Digite o código do estado (Letra e número Ex: A01):");
-        scanf(" %s", Codigo); // <- removido &
+        scanf(" %s", Codigo);
 
     printf("Digite o nome da cidade:");
-        scanf(" %s", Nome_cidade); // <- removido &
+        scanf(" %s", Nome_cidade);
 
     printf("Digite o PIB:");
         scanf(" %f", &PIB);
@@ -58,10 +58,10 @@ int main () {
         scanf(" %c", &Estado_2);
 
     printf("Digite o código do estado (Letra e número Ex: A01):");
-        scanf(" %s", Codigo_2); // <- removido &
+        scanf(" %s", Codigo_2);
 
     printf("Digite o nome da cidade:");
-        scanf(" %s", Nome_cidade_2); // <- removido &
+        scanf(" %s", Nome_cidade_2);
 
     printf("Digite o PIB:");
         scanf(" %f", &PIB_2);
@@ -72,33 +72,33 @@ int main () {
     printf("Digite o número de pontos turísticos:");
         scanf(" %d", &Pontos_turisticos_2);
 
-    printf(" O PIB Per Capita de %s é: %f", Nome_cidade_2, PIB_per_capita_2); // <- %s, removido &
-    printf(" A densidade populacional de %s é: %f", Nome_cidade_2, Densidade_populacional_2); // <- %f, removido &, não %lu
+    printf(" O PIB Per Capita de %s é: %f", Nome_cidade_2, PIB_per_capita_2);
+    printf(" A densidade populacional de %s é: %f", Nome_cidade_2, Densidade_populacional_2);
 
     //Mostrando dados
     printf("Ótimo! Agora, vamos aos dados das cidades 1 e 2!\n");
 
-    printf("O Estado é: %c\n", Estado); // <- removido &
-    printf("O Código é: %s\n", Codigo); // <- removido &
-    printf("O Nome da cidade é: %s\n", Nome_cidade); // <- removido &
-    printf("O PIB é: %f\n", PIB); // <- removido &
-    printf("A população é: %lu\n", Populacao); // <- removido &
+    printf("O Estado é: %c\n", Estado); 
+    printf("O Código é: %s\n", Codigo); 
+    printf("O Nome da cidade é: %s\n", Nome_cidade);
+    printf("O PIB é: %f\n", PIB);
+    printf("A população é: %lu\n", Populacao); 
     printf("A Área em KM² é: %f\n", Area_em_km2);
     printf("O número de pontos turísticos é: %d\n", Pontos_turisticos);
-    printf(" O PIB Per Capita de %s é: %f\n", Nome_cidade, PIB_per_capita); // <- %s, removido &
-    printf(" A densidade populacional de %s é: %f\n", Nome_cidade, Densidade_populacional); // <- %s, removido &
-    printf(" O super poder é de: %f\n", Super_poder); // <- removido &
+    printf(" O PIB Per Capita de %s é: %f\n", Nome_cidade, PIB_per_capita);
+    printf(" A densidade populacional de %s é: %f\n", Nome_cidade, Densidade_populacional);
+    printf(" O super poder é de: %f\n", Super_poder); 
 
-    printf("O Estado é: %c\n", Estado_2); // <- removido &
-    printf("O Código é: %s\n", Codigo_2); // <- removido &
-    printf("O Nome da cidade é: %s\n", Nome_cidade_2); // <- removido &
-    printf("O PIB é: %f\n", PIB_2); // <- removido &
-    printf("A população é: %lu\n", Populacao_2); // <- removido &
+    printf("O Estado é: %c\n", Estado_2);
+    printf("O Código é: %s\n", Codigo_2); 
+    printf("O Nome da cidade é: %s\n", Nome_cidade_2);
+    printf("O PIB é: %f\n", PIB_2); 
+    printf("A população é: %lu\n", Populacao_2); 
     printf("A Área em KM² é: %f\n", Area_em_km2_2);
     printf("O número de pontos turísticos é: %d\n", Pontos_turisticos_2);
-    printf(" O PIB Per Capita de %s é: %f\n", Nome_cidade_2, PIB_per_capita_2); // <- %s, removido &
-    printf(" A densidade populacional de %s é: %f\n", Nome_cidade_2, Densidade_populacional_2); // <- %s, removido &
-    printf(" O super poder é de: %f\n", Super_poder_2); // <- removido &
+    printf(" O PIB Per Capita de %s é: %f\n", Nome_cidade_2, PIB_per_capita_2);
+    printf(" A densidade populacional de %s é: %f\n", Nome_cidade_2, Densidade_populacional_2);
+    printf(" O super poder é de: %f\n", Super_poder_2);
 
     //Comparar os dados
     int vitoria_pop = Populacao > Populacao_2;
@@ -128,8 +128,8 @@ int main () {
     int vencedor1= Super_poder > Super_poder_2;
     int vencedor2= Super_poder_2 > Super_poder;
 
-    printf("Carta 1 venceu: %d\n", vencedor1); // <- removido &
-    printf("Carta 2 venceu: %d\n", vencedor2); // <- removido &
+    printf("Carta 1 venceu: %d\n", vencedor1); 
+    printf("Carta 2 venceu: %d\n", vencedor2); 
 
     return 0;
 }
