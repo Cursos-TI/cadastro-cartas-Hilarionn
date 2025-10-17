@@ -7,7 +7,7 @@ int main () {
 char Estado;
 char Codigo[20];
 char Nome_cidade[50];
-int PIB;
+float PIB;
 float Densidade_populacional;
 int Populacao;
 float Area_em_km2;
@@ -19,7 +19,7 @@ float Super_poder;
 char Estado_2;
 char Codigo_2[20];
 char Nome_cidade_2[50];
-int PIB_2;
+float PIB_2;
 float Densidade_populacional_2;
 int Populacao_2;
 float Area_em_km2_2;
@@ -48,13 +48,13 @@ printf("=== Bem-vindo ao jogo Super Trunfo ===\n");
 printf("***Carta 1***\n");
 
 printf("Digite a letra do Estado (De A até H): ");
-    scanf(" %c", &Estado_);
+    scanf(" %c", &Estado);
 
     printf("Digite o código do estado (Letra e númerp Ex: A01):");
     scanf(" %s", &Codigo);
 
     printf("Digite o nome da cidade:");
-    scanf(" %C", Nome_cidade);
+    scanf(" %s", Nome_cidade);
 
     printf("Digite o PIB:");
     scanf(" %f", PIB);
@@ -80,7 +80,7 @@ printf("Ótimo! Agora, vamos para a segunda carta!\n");
     scanf(" %s", &Codigo_2);
 
     printf("Digite o nome da cidade:");
-    scanf(" %C", Nome_cidade_2);
+    scanf(" %s", Nome_cidade_2);
 
     printf("Digite o PIB:");
     scanf(" %f", PIB_2);
