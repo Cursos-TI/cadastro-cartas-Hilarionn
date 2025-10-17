@@ -33,13 +33,16 @@ int main () {
     printf("***Carta 1***\n");
 
     printf("Digite a letra do Estado (De A até H): ");
-        scanf(" %c", &Estado);
+        scanf(" %s", &Estado);
 
     printf("Digite o código do estado (Letra e número Ex: A01):");
         scanf(" %s", Codigo);
 
     printf("Digite o nome da cidade:");
         scanf(" %s", Nome_cidade);
+
+        printf("Digite a área em km²: ");
+scanf("%f", &Area_em_km2);
 
     printf("Digite o PIB:");
         scanf(" %f", &PIB);
@@ -65,6 +68,9 @@ int main () {
 
     printf("Digite o PIB:");
         scanf(" %f", &PIB_2);
+
+        printf("Digite a área em km² da segunda carta: ");
+scanf("%f", &Area_em_km2_2);
 
     printf("Digite a população:");
         scanf(" %lu", &Populacao_2);
