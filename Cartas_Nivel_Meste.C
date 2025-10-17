@@ -137,7 +137,7 @@ Densidade_populacional = Populacao / Area_em_km2;
     printf("A população é: %lu habitantes\n", Populacao_2); 
     printf("A Área em KM² é: %.2fKM²\n", Area_em_km2_2);
     printf("O número de pontos turísticos é: %d\n", Pontos_turisticos_2);
-    printf(" O PIB Per Capita de %s é: %.2f\n", Nome_cidade_2, PIB_per_capita_2);
+    printf(" O PIB Per Capita de %s é: R$%.2f\n", Nome_cidade_2, PIB_per_capita_2);
     printf(" A densidade populacional de %s é: %.2f\n", Nome_cidade_2, Densidade_populacional_2);
     printf(" O super poder é de: %.2f\n", Super_poder_2);
 
