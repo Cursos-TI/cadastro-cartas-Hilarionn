@@ -19,11 +19,7 @@ float Area2;
 float PIB2;
 int Pontos_turisticos2;
  
-    // Calculando PIB per capita e densidade populacional
-float PIB_per_capita = PIB / Populacao;
-float Densidade_populacional = Populacao / Area;
-float PIB_per_capita2 = PIB2 / Populacao2;
-float Densidade_populacional2 = Populacao2 / Area2;
+   
 
 //Entrada de dados para a primeira carta
 
@@ -59,6 +55,16 @@ printf("Digite a população:");
 printf("Digite o número de pontos turísticos:");
     scanf(" %d", &Pontos_turisticos2);
 // Comparando os dados
+
+
+ // Calculando PIB per capita e densidade populacional
+float PIB_per_capita = PIB / Populacao;
+float Densidade_populacional = Populacao / Area;
+float PIB_per_capita2 = PIB2 / Populacao2;
+float Densidade_populacional2 = Populacao2 / Area2;
+
+
+
  if (Populacao > Populacao2) {
     printf("A primeira carta tem maior população.\n");
 } else if (Populacao2 > Populacao) {
