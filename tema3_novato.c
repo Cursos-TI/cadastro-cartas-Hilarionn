@@ -39,20 +39,21 @@ printf("Digite o número de pontos turísticos:");
     scanf(" %d", &Pontos_turisticos);   
 
 //Entrada de dados para a segunda carta
+printf("Agora, digite os dados da segunda carta! \n");
 
-printf("Digite a letra do Estado (De A até H): ");
+printf("Digite a letra do Estado 2 (De A até H): ");
     scanf(" %s", Estado2);
-printf("Digite o código do estado (Letra e número Ex: A01):");
+printf("Digite o código do estado 2(Letra e número Ex: A01):");
     scanf(" %s", Codigo2);
-printf("Digite o nome da cidade:"); 
+printf("Digite o nome da cidade 2:"); 
     scanf(" %s", Nome_cidade2);
-printf("Digite o PIB:");
+printf("Digite o PIB 2:");
     scanf(" %f", &PIB2);
-printf("Digite a área em km²: ");
+printf("Digite a área em km² 2: ");
     scanf("%f", &Area2);
-printf("Digite a população:");
+printf("Digite a população 2:");
     scanf(" %d", &Populacao2);
-printf("Digite o número de pontos turísticos:");
+printf("Digite o número de pontos turísticos 2:");
     scanf(" %d", &Pontos_turisticos2);
 // Comparando os dados
 
@@ -116,5 +117,7 @@ if ( (Populacao > Populacao2) + (Area > Area2) + (PIB > PIB2) + (Pontos_turistic
     printf("A segunda carta é a vencedora!\n");
 } else {
     printf("As duas cartas empataram!\n");
-   return 0;
+  
+}
+ return 0;
 }
